@@ -1,23 +1,21 @@
 import logo from './logo.svg';
+import { Routes, Route, Link } from "react-router-dom";
 import './App.css';
-import {useState, useEffect } from 'react';
-import Button from './components/buttons/Button';
 import Home from './components/pages/Home';
+import Astro from './components/pages/Astro';
 import Current from './components/pages/Current';
-import FourDay from './components/pages/FourDay';
-import AstroEvents from './components/pages/AstroEvents'
-import {Routes, Route} from "react-router-dom";
-
+import Four from './components/pages/Four';
 
 function App() {
   return (
-    <Routes>
-    <Route exact path = "/" element={<Home />} />
-    <Route path='home' element={<Home />}/>
-    <Route path='current' element={<Current />}/>
-    <Route path='fourDay' element={<FourDay />}/>
-    <Route path='astroEvents' element={<AstroEvents />}/>
-  </Routes>
+    <div className="App">
+     <Routes>
+       <Route path="/" element={<Home />} />
+       <Route path='current' element={<Current />} />
+       <Route path='four' element={<Four />} />
+       <Route path='astro' element={<Astro />} />
+     </Routes>
+    </div>
   );
 }
 
