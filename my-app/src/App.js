@@ -6,12 +6,13 @@ import Astro from './components/pages/Astro';
 import Current from './components/pages/Current';
 import Four from './components/pages/Four';
 import Nav from './components/Nav';
+import Header from './components/Header';
 
 function App() {
   return (
     <main>
-      <Nav/>
     <div className="App">
+      <Header/>
      <Routes>
        <Route exact path="/" element={<Home />} />
        <Route path='home' element={<Home />}/>
