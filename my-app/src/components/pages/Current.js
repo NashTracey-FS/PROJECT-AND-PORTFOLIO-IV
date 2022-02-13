@@ -4,7 +4,7 @@ import {astroData,cityData,fourData,getData} from '../ApiCall'
 
 
 function Current(){
- getData();
+  getData(cityData);
     return(
       
         <section>

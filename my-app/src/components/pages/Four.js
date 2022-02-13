@@ -4,9 +4,8 @@ import {astroData,cityData,fourData,getData} from '../ApiCall'
 
 
 function FourDay(){
-   
-  getData();
-
+    getData(fourData);
+    console.log(fourData);
     return(
         <section>
              <h1>Four Day forecast</h1>

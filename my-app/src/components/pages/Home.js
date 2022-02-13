@@ -1,8 +1,11 @@
 import React from 'react';
+import {astroData,cityData,fourData,getData} from '../ApiCall'
+
 
 
 function Home(){
-
+getData(astroData,cityData,fourData);
+console.log(astroData,cityData,fourData);
     return(
         <main>
             <h1>Home</h1>
