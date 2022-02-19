@@ -11,7 +11,7 @@ function FourDay(){
              <h1>Four Day forecast</h1>
              <div>
                  <h2>Day 1</h2>
-             <strong>Temp:</strong> <p>{fourData[0]}</p>
+             <strong>Temp:</strong> <p>{fourData[0].toString()}</p>
             
              </div>
 
