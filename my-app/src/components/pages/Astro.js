@@ -18,7 +18,7 @@ function Astro(){
    
     return(
         
-        <section>
+        <section style={styles.main}>
              <article>
              <h1>Astrological Events</h1>
              
@@ -35,3 +35,24 @@ function Astro(){
     )
 }
 export default Astro;  
+
+const styles={
+
+    main: {
+        border: '4px solid #020887',
+        backgroundColor: 'rgba(27, 153, 139, .8)',
+        color: '#FBF5F3',
+        borderRadius: '1%',
+        padding: '1%',
+        margin: '1%',
+        boxShadow:'0 3px 6px 0 rgba(0, 0, 0.20)',
+        display: 'flex',
+        flexDirection: 'column',
+        alignItems: 'center',
+        justifyContent: 'space-between',
+        paddingLeft: 20,
+        paddingRight: 20,
+        paddingTop: 10,
+       
+    },
+}
