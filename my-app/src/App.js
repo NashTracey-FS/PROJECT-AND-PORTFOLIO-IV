@@ -14,7 +14,7 @@ function App() {
     <div className="App">
       <Header/>
      <Routes>
-       <Route exact path="/" element={<Home />} />
+       <Route exact path="/" element={<Home />}/>
        <Route path='home' element={<Home />}/>
        <Route path='current' element={<Current />} />
        <Route path='four' element={<Four />} />
@@ -24,5 +24,7 @@ function App() {
 </main>
   );
 }
+
+
 
 export default App;
