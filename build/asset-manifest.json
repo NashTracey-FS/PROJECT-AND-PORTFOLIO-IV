@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/PROJECT-AND-PORTFOLIO-IV/static/css/main.073c9b0a.css",
+    "main.js": "/PROJECT-AND-PORTFOLIO-IV/static/js/main.94c9d5b9.js",
+    "static/js/787.28cb0dcd.chunk.js": "/PROJECT-AND-PORTFOLIO-IV/static/js/787.28cb0dcd.chunk.js",
+    "static/media/cityhall.jpeg": "/PROJECT-AND-PORTFOLIO-IV/static/media/cityhall.9508713ad8ea53273439.jpeg",
+    "static/media/Marker.jpeg": "/PROJECT-AND-PORTFOLIO-IV/static/media/Marker.2877eb4b3d64650dab98.jpeg",
+    "static/media/logo.png": "/PROJECT-AND-PORTFOLIO-IV/static/media/logo.ae416dfebe07b465ae79.png",
+    "static/media/logo.svg": "/PROJECT-AND-PORTFOLIO-IV/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/PROJECT-AND-PORTFOLIO-IV/index.html",
+    "main.073c9b0a.css.map": "/PROJECT-AND-PORTFOLIO-IV/static/css/main.073c9b0a.css.map",
+    "main.94c9d5b9.js.map": "/PROJECT-AND-PORTFOLIO-IV/static/js/main.94c9d5b9.js.map",
+    "787.28cb0dcd.chunk.js.map": "/PROJECT-AND-PORTFOLIO-IV/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.94c9d5b9.js"
+  ]
+}
